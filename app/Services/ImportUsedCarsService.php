@@ -8,9 +8,9 @@
 
 namespace App\Services;
 
-use App\Entity\Make;
-use App\Entity\Model;
-use App\Entity\Car;
+use App\Models\Make;
+use App\Models\Model;
+use App\Models\Car;
 
 class ImportUsedCarsService
 {
