@@ -15,7 +15,7 @@ class CreateModelTable extends Migration
     {
         Schema::create('models', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name')->nullable(false)->unique();
+            $table->string('name')->nullable(false);
             $table->unsignedInteger('make_id')->nullable(false);
             $table->foreign('make_id')->references('id')->on('makes');
         });

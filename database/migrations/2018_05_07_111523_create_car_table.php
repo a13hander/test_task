@@ -24,7 +24,7 @@ class CreateCarTable extends Migration
             $table->tinyInteger('doors');
             $table->string('color');
             $table->string('fuel_type');
-            $table->float('engine_size', 1, 1);
+            $table->float('engine_size');
             $table->smallInteger('power');
             $table->string('transmission');
             $table->string('drive_type');
